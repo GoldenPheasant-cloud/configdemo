@@ -1,0 +1,10 @@
+server.port=${PORT:0}
+eureka.instance.instance-id=${spring.application.name}:${spring.application.instance_id:${random.value}}
+spring.datasource.url=jdbc:mysql://localhost/yawsec
+eureka.client.serviceUrl.defaultZone=http://localhost:8888/eureka
+spring.datasource.driverClassName=com.mysql.jdbc.Driver
+spring.datasource.username=root
+spring.datasource.password=toor
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
